@@ -1,0 +1,530 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+
+}
+/* body{
+    display: none;
+} */
+
+.title {
+    text-align: center;
+}
+
+/* ------------taskbar css------------- */
+.taskbar {
+    background-color: black;
+    padding-left: 25px;
+}
+
+.taskbar a {
+    background-color: black;
+    text-decoration: none;
+    position: relative;
+    left: 150px;
+    color: white;
+}
+
+.taskbar p {
+    color: white;
+    position: relative;
+    top: 20px;
+}
+
+.taskbar button {
+    position: relative;
+    top: -20px;
+    left: 350px;
+    font-weight: bold;
+    padding: 3px;
+    border: yellow solid;
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+
+/*--------------navbar css------------ */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    flex-wrap: wrap;
+}
+
+.navbar select {
+    padding: 12px;
+    border: rgb(0, 187, 255) solid;
+    color: white;
+    background-color: rgb(0, 187, 255);
+    border-radius: 3px;
+}
+
+.navbar input {
+    font-size: medium;
+    border: black solid;
+    padding: 12px;
+    width: 500px;
+}
+
+.lists ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+}
+
+.lists ul li {
+    list-style: none;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* --------------end navbar---- */
+/*-----------------cards css---------*/
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-bottom: -5%;
+    margin-top: 40px;
+    gap: 5%;
+
+}
+
+.card1 {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.image {
+    width: 50px;
+    height: 20px;
+}
+
+.card2 {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.card3 {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.btn {
+    background-color: rgb(116, 193, 244);
+    padding: 1.2rem 3.5rem;
+    border: solid rgb(116, 193, 244);
+    border-radius: 3px;
+    color: white;
+}
+
+.learning {
+    background-color: skyblue;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.boxes {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 2%;
+    height: 30%;
+    margin: 100%;
+    margin: 0 auto;
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Open Sans', sans-serif !important;
+    animation-name: example;
+    animation-duration: 3sec;
+    animation-delay: 5sec;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{
+        border-radius: 0%;
+    }
+    to{
+        border-radius: 50%;
+    }
+}
+
+
+.boxes1 {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 10px;
+    height: 50%;
+    margin: 100%;
+    margin: 0 auto;
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Open Sans', sans-serif !important;
+
+
+}
+
+.title {
+    font-size: large;
+    font-weight: bold;
+}
+
+.box1 {
+    padding: 10px;
+    height: 250px;
+    width: 500px;
+    background-color: white;
+    font-size: large;
+    gap: 2rem;
+}
+
+.box2 {
+    padding: 10px;
+    height: 250px;
+    width: 500px;
+    background-color: white;
+    font-size: large;
+    gap: 2rem;
+}
+
+.box3 {
+    padding: 10px;
+    height: 250px;
+    width: 500px;
+    background-color: white;
+    font-size: large;
+    gap: 2rem;
+}
+
+.box4 {
+    padding: 10px;
+    height: 250px;
+    width: 500px;
+    background-color: white;
+    font-size: large;
+    gap: 2rem;
+}
+
+.box5 {
+    padding: 10px;
+    height: 250px;
+    width: 500px;
+    background-color: white;
+    font-size: large;
+    gap: 2rem;
+
+}
+
+.btn {
+    margin-top: 12px;
+    padding: 20px;
+    border: skyblue solid;
+    color: white;
+    background-color:skyblue;
+    transition: transform 0.3s;
+}
+.btn:hover{
+    transform:  translatey(-10px);
+    background-color: white;
+    color: skyblue;
+}
+
+.btn1 button {
+    padding: 25px;
+    padding-right: 40px;
+    text-align: center;
+    color: skyblue;
+    background-color: white;
+    border-style: hidden;
+    border-radius: 3px;
+
+}
+
+.courses {
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.course1 {
+    box-shadow: 6px 6px 6px 6px gray;
+    border-radius: 5px;
+    align-items: center;
+    /* margin:px; */
+    gap: 2px;
+    flex-direction: column;
+    width: 330px;
+    height: 450px;
+}
+
+.img img {
+    width: 100%;
+}
+
+.descrip {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.price {
+    text-align: center;
+    margin-top: 20px;
+}
+.events-section{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    background-color: whitesmoke;
+
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+
+}
+.title{
+    font-size: 30px;
+    margin-top: 20px;}
+.events{
+width:50%;
+    margin:10px;
+    height: 300px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap:wrap ;
+    gap: 20px;
+}
+.wid{
+    width:50%;
+    
+}
+.designation{
+height: 130px;
+background-color: white;
+display: flex;
+}
+.text{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    text-align: center;
+     gap: 15px;
+}
+.skills{
+    display: flex;
+    gap: 40px;
+    height: 20vh;
+    margin-top:5%;
+    justify-content: center;
+
+}
+.skill-section{
+    height: 300px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+
+}
+.skill{
+text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+
+}
+.skill0{
+    height: 400px;
+    align-items: center;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.skill1{
+    height: 100px;
+    background-color: white;
+    display: flex;
+}
+.skill2{
+    height: 100px;
+    background-color: white;
+    display: flex;
+}
+.skill3{
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+}
+/* ----------testimonial  */
+.testimonial-image img{
+    border-radius: 50%;
+}
+.testimonial-card{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40vh;
+    gap: 60px;
+}
+.testimonial-body{
+  text-align: center;
+  gap:30px;
+}
+.desciption1{
+    font-size: 10px;
+
+}
+.title1{
+    font-size:26px;
+    color: black;
+    font-weight: bold;
+}
+.dots{
+ display: flex;
+ gap: 10px;
+ justify-content:center ;
+ margin-top: 5%;
+
+}
+.dot1{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+}
+.dot2{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-color: black;
+}
+.dot3{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-color: black;
+}
+.images {
+    text-align: center;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+.information{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+  width:80%;
+  line-height:2.0 ;
+}
+.teaching{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    height:30vh;
+    padding: 40px;
+    font-size: 20px;
+    gap: 20%;
+    color: #333;
+    flex-wrap: wrap;
+
+}
+.heading{
+    font-size:24px;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 10px;
+   
+}
+
+
+.btn1{
+    padding:15px;
+    padding-right: 50px;
+    text-align: center;
+    background-color: skyblue;
+    color: white;
+    border-style: hidden;
+    border-radius: 3px;
+    margin-top: 20px;
+    font-size:20px;
+    transition: transform 0.3s;
+}
+.btn1:hover{
+    transform:  translatey(-10px);
+    background-color: white;
+    color: skyblue;
+}
+.paragraph{
+    margin-top: 20px;  
+    font-size:20px;
+}
+.title1{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    display: flex;
+    justify-content: center;
+
+    
+}
+.row{
+    height: 40vh;
+    width:10%;
+
+    
+}
+.footer{
+display: flex;
+line-height: 2.0;
+font-size: 15px;
+justify-content: space-evenly;
+background-color: #213033!important;
+color: whitesmoke;
+flex-direction: row;
+height: 70vh;
+padding-top:50px;
+}
+.footer-title {
+    font-size: 30px;
+}
+/* -------------MEDIA QUERY */

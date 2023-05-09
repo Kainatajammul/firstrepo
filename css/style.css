@@ -1,0 +1,36 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/* .box{
+    margin: 0 auto;
+    background-color: black;
+    background-image: url('../assets/book.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+
+} */
+.card-img{
+    background-color: aliceblue;
+    background-image: url('../assets/burger.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-body{
+    height: 20vh;
+}
+.heading{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.desc{
+    font-size: medium;
+
+}
+.btn{
+    background-color: red;
+    color: whitesmoke;
+    border: solid transparent;
+    border-radius: 5px;
+}

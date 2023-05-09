@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.lists{
+    color: black;
+    font-size: medium;
+}
+
+.navbar {
+
+    background-color: peru;
+    padding: 15px;
+}
+
+.navbar input {
+    font-size: medium;
+    border: black solid;
+    padding: 12px;
+    width: 500px;
+    background-color: rgb(26, 27, 27);
+}
+
+.lists ul {
+    position: relative;
+    right: 70%;
+    gap: 50px;
+
+}
+
+.lists ul li {
+    list-style: none;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and (min-width: 400px ){
+  .navbar{
+    background-color: aquamarine;
+
+  }
+  
+}
+@media screen and (max-width: 1000px ){
+    .navbar{
+      background-color:palevioletred;
+  
+    }
+    
+    
+  }
+    

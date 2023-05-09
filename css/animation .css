@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.boxes{
+    height:1000px;
+    width: 1000px;
+    background-color:black;
+position: relative;
+
+}
+.box1{
+    height: 350px;
+    width: 350px;
+    background-color: black;
+    position: absolute;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes animation{
+    0%{
+        background-color: antiquewhite;
+        top:0px;
+        left:0px;
+}
+20%{
+    right:0px;
+    top:0px;
+    background-color: bisque;
+}
+40%{
+    right:0;
+    bottom:0px;
+    background-color: violet;
+}
+60%{
+    background-color: blueviolet;
+    right:700px;
+    bottom:0px;
+}
+100%{
+bottom:650px;
+}
+}
